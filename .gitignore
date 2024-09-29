@@ -1,2 +1,64 @@
-# Virtual Environment
-.venv
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+.installed.cfg
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Pytest cache
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# VS Code and other editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets / Credentials
+*.pem
+*.key
+*.crt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python environment
+.env
